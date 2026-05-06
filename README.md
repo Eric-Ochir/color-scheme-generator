@@ -1,19 +1,23 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Color Scheme Generator
+I developed this solo project to master Asynchronous JavaScript and REST API integration during Scrimba Fron-End path. It allows users to pick a seed color and generate a professional palette by fetching data from a external Color API.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Technical Highlights
+Implemented fetch requests to a REST API, handling JSON responses and error states to ensure a smooth user experience.  
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Developed logic to map API response objects into a dynamic UI using template literals and modular CSS Grid layouts.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+UIntegrated the Navigator Clipboard API to allow users to instantly copy HEX codes with visual "Copied!" feedback.
 
-Happy Coding!
+Used a centralized event listener on the document to handle both the generation trigger and the copy-to-clipboard functionality, optimizing memory efficiency.
+
+Engineering Challenges
+Ensuring the UI remained consistent while waiting for data from the external API. I solved this by implementing loading states and clear error messaging for the user.
+
+To interface correctly with the API, I developed a utility to strip the # symbol from the input value, ensuring the URL parameters remained valid.
+
+Tech Stack
+HTML5
+CSS3
+JavaScript(ES6+)
+REST API
+GITHUB
