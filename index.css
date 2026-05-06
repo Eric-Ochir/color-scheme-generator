@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*input section style*/
+.container {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.input-section {
+  background: #1f2937;
+  color: #d5d4d8;
+  padding: 1rem 0;
+}
+
+#form-input {
+  display: grid;
+  text-align: center;
+  grid-template-areas: "input selection selection selection button button";
+  gap: 1rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+#color {
+  height: 3rem;
+  grid-area: input;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#color-schemes {
+  height: 3rem;
+  font-size: 1.1rem;
+  grid-area: selection;
+  padding: 0 1rem;
+  background: #2d3748;
+  color: #d5d4d8;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.get-color-scheme-btn {
+  height: 3rem;
+  grid-area: button;
+  cursor: pointer;
+  background: #3d4b60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.get-color-scheme-btn:hover {
+  background: #2563eb;
+}
+
+/* style for the color scheme section */
+.scheme-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  flex: 1;
+  cursor: pointer;
+}
+.color-box {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.2s;
+}
+.color-box:hover {
+  opacity: 0.9;
+}
+.color-preview {
+  height: 100%;
+}
+.color-name {
+  background: #ffffff;
+  color: #2b283a;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.hex {
+  background: #1f2937;
+  color: #d5d4d8;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
