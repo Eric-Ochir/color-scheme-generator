@@ -25,3 +25,6 @@ CSS3
 JavaScript(ES6+)
 REST API
 GITHUB
+
+Author
+Erdene-Ochir Ochirgarav 
