@@ -26,5 +26,15 @@ JavaScript(ES6+)
 REST API
 GITHUB
 
+How to run this project
+
+1. Clone the repository: Bash git clone https://github.com/Eric-Ochir/[repository-name].git
+
+2. Install dependencies: Bash npm install
+
+3. Launch the development server: Bash npm run dev
+
+4. Build for production: Bash npm run build
+
 Author
 Erdene-Ochir Ochirgarav 
